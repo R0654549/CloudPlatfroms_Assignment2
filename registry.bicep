@@ -1,4 +1,4 @@
-param acrName string = 'svlacr'
+param acrName string = 'svlacr2'
 param location string = resourceGroup().location
 param acrSku string = 'Basic'
 

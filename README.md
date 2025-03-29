@@ -87,3 +87,5 @@ This will list all images in the repository `svlacr`.
 If everything went well, you'll see the image in the list.
 
 ## Container Instance
+We use `deployment.bicep` to deploy the image to a Azure Container Instance.
+This will create a Virtual network with a subnet.
