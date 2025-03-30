@@ -2,7 +2,7 @@
 This school assignment is meant to showcase our growing knowledge with both the use of different cloud platforms, and our understanding of Infrastructure as Code (IaC). In this assignment, we take an application from a GitHub repository and deploy it to a container in Azure.
 
 # Design
-
+![Architecture diagram](IaCdiagram.drawio.png)
 # Step 1: Preparing the application
 To begin, we take the application from it's repository and turn it into a container image. To do this we use a Dockerfile.
 
