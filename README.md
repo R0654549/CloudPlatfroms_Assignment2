@@ -5,8 +5,6 @@ This school assignment is meant to showcase our growing knowledge with both the 
 
 # Step 1: Preparing the application
 To begin, we take the application from it's repository and turn it into a container image. To do this we use a Dockerfile.
-Create a new folder on your system and use the following command:
-`git clone https://github.com/gurkanakdeniz/example-flask-crud.git`
 
 Create a new folder on your system and use the following command:
 ```bash
@@ -88,4 +86,10 @@ If everything went well, you'll see the image in the list.
 
 ## Container Instance
 We use `deployment.bicep` to deploy the image to a Azure Container Instance.
-This will create a Virtual network with a subnet.
+This will create a Virtual network with a subnet, provide a public IP, and create the container.
+
+To start use the command:
+```bash
+az deployment group create --resource-group svlcrud --template-file deployment.bicep
+```
+Then, look for the container in the Azure portal, select the public IP, and paste it in a browser window. Here you'll see the deployed application.
