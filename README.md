@@ -1,5 +1,5 @@
 # CloudPlatforms_Assignment2
-This school assignment is meant to showcase our growing knowledge with both the use of different cloud platforms, and our understanding of Infrastructure as Code (IaC). In this assignment, we take an application from a GitHub repository and deploy it to a conntainer in Azure.
+This school assignment is meant to showcase our growing knowledge with both the use of different cloud platforms, and our understanding of Infrastructure as Code (IaC). In this assignment, we take an application from a GitHub repository and deploy it to a container in Azure.
 
 # Design
 
